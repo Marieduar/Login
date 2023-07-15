@@ -4,3 +4,24 @@ body{
     background-color: #3c435c;
 }
 
+#login{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display:flex
+}
+
+.card{
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 2px;
+    width: 280px;
+}
+
+.card-header{
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+
