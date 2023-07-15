@@ -25,3 +25,39 @@ body{
     color: #fff;
 }
 
+.card-header ::after{
+    content:"";
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.card-content label{
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.card-content-area{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.card-content-area input{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+#card-footer .submit{
+    background-color: #a13854;
+}
+
